@@ -4,8 +4,9 @@
 ![Threads](https://img.shields.io/badge/threads-pthread-orange)
 ![Mutex](https://img.shields.io/badge/synchronization-mutex-red)
 ![Status](https://img.shields.io/badge/status-completed-brightgreen)
-
-*This project has been created as part of the 42 curriculum by narginaa.*
+![Github code size in bytes](https://img.shields.io/github/languages/code-size/Pand0xra/42_so_long?color=6272a4)
+![Main Language](https://img.shields.io/github/languages/top/Pand0xra/42_so_long?color=6272a4)
+![License](https://img.shields.io/github/license/Pand0xra/42_so_long?color=6272a4)
 
 ## Description
 
@@ -187,4 +188,4 @@ Checks:
 ```bash
 valgrind --tool=helgrind --max-threads=300 ./philo 200 800 200 200
 ```
-Crafted by Pand0xra 💜
+> Built by Pand0xra as part of the 42 curriculum.
