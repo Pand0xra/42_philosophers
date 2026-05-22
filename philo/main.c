@@ -19,6 +19,7 @@ void	ft_init_philos(t_data *data)
 	data->philos = malloc(sizeof(t_philo) * data->philo_count);
 	if (!data->philos)
 		ft_exit("malloc failed to allocate memory.\n", data);
+	ft_memset(data->philos, 0, sizeof(t_philo) * data->philo_count);
 	i = 0;
 	while (i < data->philo_count)
 	{
